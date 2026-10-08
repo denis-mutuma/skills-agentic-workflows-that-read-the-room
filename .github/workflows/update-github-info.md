@@ -7,6 +7,9 @@ on:
 permissions:
   contents: read
   pull-requests: read
+engine:
+  id: copilot
+  copilot-sdk: true
 tools:
   edit:
   web-fetch:
