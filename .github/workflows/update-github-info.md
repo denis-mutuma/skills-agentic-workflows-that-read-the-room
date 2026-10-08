@@ -15,6 +15,7 @@ network:
     - defaults
     - github.blog
     - github.com
+    - awesome-copilot.github.com
 safe-outputs:
   create-pull-request:
     max: 1
@@ -25,12 +26,13 @@ safe-outputs:
 
 Read `notes/mona-notes.md` and `site/content/github-info.md` before making any changes.
 
-Use the web-fetch tool to read both official sources:
+Use the web-fetch tool to read these sources:
 
 - https://github.blog/latest/
 - https://github.blog/changelog/
+- https://awesome-copilot.github.com/workflows/
 
-Select only recent developments that are practical and useful to developers and fit the site's existing editorial angle. Do not repeat information already covered unless a meaningful update is available. Keep summaries short, factual, and actionable; include a direct source link for every addition and identify whether it came from the GitHub Blog or GitHub Changelog. Do not infer details that the source pages do not support.
+Select only recent developments that are practical and useful to developers and fit the site's existing editorial angle. Do not repeat information already covered unless a meaningful update is available. Keep summaries short, factual, and actionable; include a direct source link for every addition and identify whether it came from the GitHub Blog, GitHub Changelog, or Awesome Copilot workflows. Do not infer details that the source pages do not support.
 
 Update only `site/content/github-info.md`, preserving its existing structure and unrelated content. Review the final diff and verify every new statement against its linked official source. If there is no meaningful, verifiable update, leave the page unchanged and do not open an empty pull request.
 
